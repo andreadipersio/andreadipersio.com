@@ -1,7 +1,5 @@
 # UDP and OSX Quartz Event with Go Language
 
-
-### The problem
 Nintendo DS is a funny little console! I love it's gamepad, which remind me the glorious SNES gamepad. 
 It also sports WIFI capabilities (sadly with no support for WPA).
 One day, I was thinking:
