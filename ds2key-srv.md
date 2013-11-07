@@ -1,7 +1,5 @@
-# Having fun with Nintendo DS and GO programming language
+# UDP and OSX Quartz Event with Go Language
 
-### Prelude
-Source code for this program can be found on [here](https://github.com/andreadipersio/ds2key-srv).
 
 ### The problem
 Nintendo DS is a funny little console! I love it's gamepad, which remind me the glorious SNES gamepad. 
@@ -428,6 +426,8 @@ Source code:
         }
     }
 
+### Source
+Source code for this program can be found on [Github](https://github.com/andreadipersio/ds2key-srv).
 
 ### Conclusion
 I spent some days making this little program, at the beginning I tried writing it using *Objective C / Cocoa / XCode*, but after writing 200 lines of code only to implement a UDP listener, I was really missing *GO*. When I discovered that ApplicationService framework is written in C I did some research on how to call C code from GO and found *CGO*.
