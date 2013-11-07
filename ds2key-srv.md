@@ -298,12 +298,11 @@ Pseudo code for this file is:
     - if a keys was pressed but is not in the parsed packet array, 
       we release it by emulating a key up (`kbd.KeyUp`)
 
-- loop forever
-
+- loop forever.
 
 
     package main
-
+    
     import (
         "fmt"
         "log"
@@ -427,6 +426,7 @@ Pseudo code for this file is:
             }
         }
     }
+
 
 ### Conclusion
 I spent some days making this little program, at the beginning I tried writing it using *Objective C / Cocoa / XCode*, but after writing 200 lines of code only to implement a UDP listener, I was really missing *GO*. When I discovered that ApplicationService framework is written in C I did some research on how to call C code from GO and found *CGO*.
