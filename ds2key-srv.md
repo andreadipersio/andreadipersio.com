@@ -37,11 +37,11 @@ that status of game pad.
 
 This is what a packet payload look like:
 
-                  30 00 41 04 00 00 00 00 00 00 00
+    30 00 41 04 00 00 00 00 00 00 00
 
 Starting from leftmost byte, we took the 3rd byte and the 4th byte.
 
-                  41 04
+    41 04
 
 Those are HEX values, converting them to binary, we obtain status for
 all the gamepad buttons:
@@ -79,7 +79,7 @@ For each byte, we can use an array to represent it's bits.
 
     byte2 := []string{"KEY_A",        // 1 << 0 = 1
                     "KEY_B",
-                    "KEY_SELECT",   // 1 << 2 = 4
+                    "KEY_SELECT",     // 1 << 2 = 4
                     "KEY_START",
                     "KEY_RIGHT", 
                     "KEY_LEFT", 
@@ -119,7 +119,7 @@ Pseudo code for parsing:
 
 If, we press START and SELECT key on the nintendo ds, we get:
 
-`0000 1100`
+    0000 1100
 
 Now, we iterate as usual our array of KEYS, we find the integer value by shifting left, but before comparing the current item value, we apply a `bitmask` using a `bitwise and`.
 
@@ -221,8 +221,7 @@ To generate a virtual keystroke, we have to use Quartz Tap Event, through
 C call. 
 We'll use CGO.
 
-                  file: ds2key-srv/kbd/kbd.go
-
+    # file: ds2key-srv/kbd/kbd.go
     package kbd
 
     /*
