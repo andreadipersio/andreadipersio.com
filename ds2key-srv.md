@@ -289,16 +289,14 @@ Pseudo code for this file is:
 - parser return back an array of strings
 
 - iterate through the array of strings
-    - if key is not pressed, we emulate a key down, by calling `kbd.KeyDown`,
-      then we create an entry on `status` with value `true`
+    - if key is not pressed, we emulate a key down, by calling `kbd.KeyDown`, then we create an entry on `status` with value `true`
     - if key is pressed, we do nothing
     
 
 - compare keys in the status array with keys in parsed packet
-    - if a keys was pressed but is not in the parsed packet array, 
-      we release it by emulating a key up (`kbd.KeyUp`)
+    - if a keys was pressed but is not in the parsed packet array, we release it by emulating a key up (`kbd.KeyUp`)
 
-- loop forever.
+- loop forever
 
 
     package main
