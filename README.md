@@ -1,4 +1,4 @@
-andreadipersio.com
+andrea di persio
 ==================
 
 A collection of articles, list of resources, and thoughts on programming.
