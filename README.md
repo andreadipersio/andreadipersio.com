@@ -8,5 +8,3 @@ A collection of articles, list of resources, and thoughts on programming.
 - [golang net/http handlers](http://tmp.devcharm.com/pages/golang-net-http-handlers)
 - [tornado web practical examples](http://tmp.devcharm.com/pages/tornado-examples)
 - [haskell, where to start?](http://tmp.devcharm.com/pages/start-haskell)
-
-Hello sandra!
