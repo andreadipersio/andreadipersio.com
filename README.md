@@ -2,7 +2,6 @@ andrea di persio
 ==================
 
 A collection of articles, list of resources, and thoughts on programming.
-And lol.
 
 - [DS2Key server for OSX, with golang](/ds2key-srv)
 - [golang essential resources for beginners](http://tmp.devcharm.com/pages/go-essential)
