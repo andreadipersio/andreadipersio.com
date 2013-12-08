@@ -20,7 +20,7 @@ Being a VIM user, my flow is:
 - Play with my code
 - Iterate
 
-The 'play with my code' part is very important while learning a new language, 
+The *play with my code* part is very important while learning a new language, 
 and Haskell offers a lot of feature that make this experience pleasant.
 
 Recently I wrote an [article on decharm.com](http://devcharm.com/pages/13-start-haskell) listing a bunch
