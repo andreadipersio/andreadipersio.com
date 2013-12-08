@@ -9,3 +9,4 @@ A collection of articles, list of resources, and thoughts on programming.
 - [tornado web practical examples](http://tmp.devcharm.com/pages/tornado-examples)
 - [haskell, where to start?](http://tmp.devcharm.com/pages/start-haskell)
 - [my contribution to the firefox os manana app](https://hacks.mozilla.org/2013/12/how-the-manana-app-was-built/)
+- Hands on [FP Complete IDE](http://andreadipersio.com/fpcomplete-ide)
