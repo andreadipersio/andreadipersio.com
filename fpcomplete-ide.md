@@ -32,14 +32,35 @@ and in my opinion is the best one to start with.
 I discovered FP Complete while searching for tutorials,
 [School Of Haskell](https://www.fpcomplete.com/school) is a collection of tutorials, spanning from 
 basic to advanced stuff. 
-Not only you can run all the code examples in the FP Complete IDE, you can also change them, playing
+
+But FP Complete strong point is their IDE, which comes in different versions, from the community edition (which is free) to the Professional edition. 
+The community edition is all you need to start learning Haskell. 
+
+Not only you can run all the code examples from their tutorial in the FP Complete IDE, you can also change them, playing
 with the code. When I say *playing* I really mean it: you can write functions and the IDE will dispaly their signature in the bottom panel, along with suggestion.
 
-If you write something like:
+If you write something (bad) like:
 
 ```haskell
+len [] = 0
 len' (x:xs) = 1 + len' xs
 ```
 
+You'll then get the following output in the *Message panel*:
 
+```haskell
+Found: len' [] = 0
+  len' (x : xs) = 1 + len' xs
+Why not: len' xs = foldr (\ x -> (+) 1) 0 xs
+```
 
+Isn't delightful? Having this kind of suggestion give you a good chance
+to learn faster good practices and tecniques obscure to imperative programmers.
+
+Speaking of type signature, have you ever heard of [Hoogle](http://hoogle.com)? 
+On Hoogle You can search package/modules by type signature, FP Complete IDE *integrate
+hoogle search in the bottom panel* saving you other precious time, and information about identifiers, accessible with `Ctrl+i`.
+
+Using this IDE really keep the *Haskell spark* strong with me, not having to switch frantical between editor/browser/docs keep me focused on the problem, and having suggestion prevent yourself from feeling lost, plus I can use all my precious VIM bindings, they work perfectly (even stuff like `ci'`).
+
+Well done.
