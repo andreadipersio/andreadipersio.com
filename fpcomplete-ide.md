@@ -41,18 +41,18 @@ with the code. When I say *playing* I really mean it: you can write functions an
 
 If you write something (bad) like:
 
-```
-len [] = 0
-len' (x:xs) = 1 + len' xs
-```
+
+  len [] = 0
+  len' (x:xs) = 1 + len' xs
+
 
 You'll then get the following output in the *Message panel*:
 
-```
-Found: len' [] = 0
-  len' (x : xs) = 1 + len' xs
-Why not: len' xs = foldr (\ x -> (+) 1) 0 xs
-```
+
+  Found: len' [] = 0
+    len' (x : xs) = 1 + len' xs
+  Why not: len' xs = foldr (\ x -> (+) 1) 0 xs
+
 
 Isn't delightful? Having this kind of suggestion give you a good chance
 to learn faster good practices and tecniques obscure to imperative programmers.
