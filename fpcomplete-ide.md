@@ -1,7 +1,7 @@
 FP Complete IDE
 ================
 
-Haskell is the first functional language (excluding SQL) I ever used,
+Haskell is the first functional language I ever used,
 I spent quite a lot of time trying to learn how to be productive in it,
 unfortunately I am still far from being more than a Haskell beginner but 
 I must say, every hour spent trying to figure out functors, monad, and recursive
