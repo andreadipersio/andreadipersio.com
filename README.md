@@ -1,4 +1,4 @@
-andrea di persio
+[andrea di persio](https://twitter.com/andreadipersio)
 ==================
 
 A collection of articles, list of resources, and thoughts on programming.
