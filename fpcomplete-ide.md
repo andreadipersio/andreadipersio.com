@@ -42,7 +42,7 @@ with the code. When I say *playing* I really mean it: you can write functions an
 If you write something (bad) like:
 
 
-    len [] = 0
+    len' [] = 0
     len' (x:xs) = 1 + len' xs
 
 
