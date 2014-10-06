@@ -1,7 +1,13 @@
 [andrea di persio](https://twitter.com/andreadipersio)
 ==================
 
+Hello,
+my name is Andrea and I am a Software Engineer.
+This is my website where you can find a small collection
+of thoughts, articles and list of resources I accumulated 
+over the years.
 
+If for any reason you want to reach me, found me on twitter [@andreadipersio](https://twitter.com/andreadipersio).
 
 - [DS2Key server for OSX, with golang](/ds2key-srv)
 - [golang essential resources for beginners](https://devcharm.com/pages/7-go-essential)
