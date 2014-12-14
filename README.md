@@ -9,6 +9,7 @@ over the years.
 
 If for any reason you want to reach me, found me on twitter [@andreadipersio](https://twitter.com/andreadipersio).
 
+- [An hello world operating system](https://github.com/andreadipersio/os-from-scratch/tree/master/real-mode-x86)
 - [DS2Key server for OSX, with golang](/ds2key-srv)
 - [golang essential resources for beginners](https://devcharm.com/pages/7-go-essential)
 - [golang net/http handlers](https://devcharm.com/pages/8-golang-net-http-handlers)
